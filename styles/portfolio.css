@@ -70,3 +70,18 @@ h1, h2,h3, h4, h5, h6 {
       margin: 100px auto;
       max-width: 100%;
   }
+  @media (max-width: 767px){
+    img{
+      display: none;
+    }
+    .project-description,
+    .btn-branding-outline{
+      text-align: center;
+    }
+    .project-description,
+    .btn-branding-outline{
+      display: block;
+      margin: 20px auto;
+    }
+    
+  }
