@@ -58,9 +58,11 @@ h1, h2,h3, h4, h5, h6 {
       background: var(--branding-color);
       border:1px solid var(--branding-color);
       border-radius: 4px;
+      color: white;
+      font-weight: bold;
       font-size: 18px;
       line-height:27px;
-      padding: 15px 30px;
+      padding: 20px;
   }
   .project-description{
       padding: 30px 0;
@@ -77,11 +79,7 @@ h1, h2,h3, h4, h5, h6 {
     .project-description,
     .btn-branding-outline{
       text-align: center;
-    }
-    .project-description,
-    .btn-branding-outline{
       display: block;
       margin: 20px auto;
     }
-    
   }
