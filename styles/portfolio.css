@@ -29,6 +29,7 @@ h1, h2,h3, h4, h5, h6 {
     font-size: 16px;
     line-height: 30px;
   }
+
   img{
       width: 500px;
   }
@@ -38,6 +39,9 @@ h1, h2,h3, h4, h5, h6 {
   }
   footer{
     margin-left:20px;
+  }
+  .m-5{
+    font-size: 20px;
   }
 
   .hero {
