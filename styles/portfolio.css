@@ -114,6 +114,10 @@ h1, h2,h3, h4, h5, h6 {
   #about-me-btn:hover{
     background: var(--branding-color);
   }
+  #email{
+    font-size: 35px;
+    margin-right: 10px;
+  }
   @media (max-width: 767px){
     img{
       display: none;
