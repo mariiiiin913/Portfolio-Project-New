@@ -1,16 +1,19 @@
 :root{
-    --branding-color:#6c64ff; 
-    --secondary-color:#f9f7fe;
-    --heading-font-family:"Playfair Display", serif;
-    --default-font-family: "Poppins", sans-serif;
+    --branding-color:#89a4bb; 
+    --secondary-color:linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    --tertiary-color:#5d5c61;
+    --heading-font-family:'Dancing Script', cursive;
+    --default-font-family: 'Roboto Slab', serif;
 }
 
 h1, h2,h3, h4, h5, h6 {
-    color: black;
+    color: var(--tertiary-color);
     font-family: var(--heading-font-family);
     font-weight: bold;
   }
   h1{
+      color: #89a4bb!important;
+      text-shadow: 3px 1px 0 var(--tertiary-color);
       font-size:96px;
       font-weight: bold;
       margin:0;
@@ -20,6 +23,7 @@ h1, h2,h3, h4, h5, h6 {
   }
   
   p {
+    color: var(--tertiary-color);
     font-family: var(--default-font-family);
     font-weight: normal;
     font-size: 16px;
@@ -27,6 +31,9 @@ h1, h2,h3, h4, h5, h6 {
   }
   img{
       width: 500px;
+  }
+  a {
+    font-family: var(--heading-font-family);
   }
 
   .hero {
@@ -46,13 +53,20 @@ h1, h2,h3, h4, h5, h6 {
       line-height: 2;
       font-size: 24px;
   }
+  .btn-branding-outline:hover, .btn-branding:hover{
+    background-color: #233d52;
+    color: white;
+  }
   .btn-branding{
       background: var(--branding-color);
+      border: 0.5px solid;
+      border-color: var(--tertiary-color);
       border-radius: 4px;
       color:white;
       font-size: 18px;
       line-height: 27px;
-      padding: 12px 20px;
+      padding: 15px 30px;
+      margin-left: 35px;
   }
   .btn-branding-outline{
       background: var(--branding-color);
@@ -71,6 +85,17 @@ h1, h2,h3, h4, h5, h6 {
       display: block;
       margin: 100px auto;
       max-width: 100%;
+  }
+  .link-linkedin{
+    display: block;
+    margin: 0 auto;
+    color: white;
+  }
+  #about-me-btn{
+    background: #233d52;
+  }
+  #about-me-btn:hover{
+    background: var(--branding-color);
   }
   @media (max-width: 767px){
     img{
