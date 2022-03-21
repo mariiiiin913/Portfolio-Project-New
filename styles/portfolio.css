@@ -34,6 +34,10 @@ h1, h2,h3, h4, h5, h6 {
   }
   a {
     font-family: var(--heading-font-family);
+    text-decoration: none;
+  }
+  footer{
+    margin-left:20px;
   }
 
   .hero {
@@ -90,6 +94,19 @@ h1, h2,h3, h4, h5, h6 {
     display: block;
     margin: 0 auto;
     color: white;
+  }
+  .link-sns{
+    display:block;
+    margin: 0 auto;
+    font-size: large;
+  }
+  .email-link{
+    text-align: center;
+    font-family: var(--default-font-family)!important;
+  }
+  .link-sns{
+    text-align: center;
+    margin: 50px auto;
   }
   #about-me-btn{
     background: #233d52;
