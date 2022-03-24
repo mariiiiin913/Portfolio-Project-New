@@ -6,7 +6,7 @@
     --default-font-family: 'Roboto Slab', serif;
 }
 
-h1, h2,h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     color: var(--tertiary-color);
     font-family: var(--heading-font-family);
     font-weight: bold;
@@ -40,6 +40,9 @@ h1, h2,h3, h4, h5, h6 {
   footer{
     margin-left:20px;
   }
+  .navbar-nav{
+    font-size: 25px;
+  }
   .m-5{
     font-size: 20px;
   }
@@ -71,9 +74,9 @@ h1, h2,h3, h4, h5, h6 {
       border-color: var(--tertiary-color);
       border-radius: 4px;
       color:white;
-      font-size: 18px;
+      font-size: 25px;
       line-height: 27px;
-      padding: 15px 30px;
+      padding: 25px 45px;
       margin-left: 35px;
   }
   .btn-branding-outline{
@@ -112,6 +115,7 @@ h1, h2,h3, h4, h5, h6 {
     text-align: center;
     margin: 50px auto;
   }
+  
   #about-me-btn{
     background: #233d52;
   }
