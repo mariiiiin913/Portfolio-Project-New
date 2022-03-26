@@ -22,6 +22,10 @@ h1{
 h2{
     font-size:64px
   }
+  h3{
+    font-family: var(--default-font-family);
+    font-weight: bold;
+  }
 p{
     font-family: var(--default-font-family);
 }
@@ -37,9 +41,9 @@ img{
 .navbar-nav{
     font-size: 25px;
   }
-
 @media (max-width: 767px){
-    img{
-      display: none;
+    h1 {
+        text-align: center;
+        padding: 80px 50px 0 50px;
     }
 }
