@@ -2,6 +2,7 @@
     --branding-color:#89a4bb; 
     --secondary-color:linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     --tertiary-color:#5d5c61;
+    --other-color:#233d52 ;
     --heading-font-family:'Dancing Script', cursive;
     --default-font-family: 'Roboto Slab', serif;
 }
@@ -12,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
   }
   h1{
-      color: #89a4bb!important;
+      color: var(--branding-color)!important;
       text-shadow: 3px 1px 0 var(--tertiary-color);
       font-size:96px;
       font-weight: bold;
@@ -40,6 +41,9 @@ h1, h2, h3, h4, h5, h6 {
   footer{
     margin-left:20px;
   }
+  i {
+   color: #4e6579;
+  }
   .navbar-nav{
     font-size: 25px;
   }
@@ -65,11 +69,11 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 24px;
   }
   .btn-branding-outline:hover, .btn-branding:hover{
-    background-color: #233d52;
+    background-color: var(--other-color);
     color: white;
   }
-  .btn-branding{
-      background: var(--branding-color);
+  .btn-branding, .contact-link{
+    background: var(--branding-color);
       border: 0.5px solid;
       border-color: var(--tertiary-color);
       border-radius: 4px;
@@ -77,6 +81,8 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 25px;
       line-height: 27px;
       padding: 25px 45px;
+  }
+  .btn-branding{
       margin-left: 35px;
   }
   .btn-branding-outline{
@@ -108,23 +114,37 @@ h1, h2, h3, h4, h5, h6 {
     font-size: large;
   }
   .email-link{
-    text-align: center;
+    color: var(--other-color);
     font-family: var(--default-font-family)!important;
+    font-size: 28px;
+    margin-top: 50px;
+  }
+  .email-link:hover{
+    color: #83c3fc;
   }
   .link-sns{
+    background-color: #e6f2ff;
+    border-radius: 10px;
     text-align: center;
-    margin: 50px auto;
+    margin: 50px 20px 50px auto; 
+  }
+  .contact-box{
+    background: var(--secondary-color);
+    border-radius: 10px;
+  }
+  .contact-btn{
+   margin:30px;
+   padding:20px
+  }
+  .work-inquiry{
+    margin:30px
   }
   
   #about-me-btn{
-    background: #233d52;
+    background: var(--other-color);
   }
   #about-me-btn:hover{
     background: var(--branding-color);
-  }
-  #email{
-    font-size: 35px;
-    margin-right: 10px;
   }
   @media (max-width: 767px){
     img{
@@ -137,3 +157,4 @@ h1, h2, h3, h4, h5, h6 {
       margin: 20px auto;
     }
   }
+  
