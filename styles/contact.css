@@ -47,6 +47,9 @@ img{
     display: block;
     margin: 0 auto;
 }
+span{
+    color: whitesmoke;
+}
 .navbar a{
     font-family: var(--heading-font-family);
 }
@@ -119,6 +122,9 @@ img{
     font-family: var(--default-font-family);
     color:var(--other-color);
     text-decoration: none;
+  }
+  #contact{
+      margin-top: 120px!important;
   }
 @media (max-width: 767px){
     h1, .social-link, .link-sns {
