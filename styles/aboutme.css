@@ -52,9 +52,7 @@ footer{
     margin-top: 150px!important;
     font-size: 30px;
   }
-.my-picture{
-    padding-top: 40px;
-}
+
   .btn-branding-outline:hover, .btn-branding:hover{
     background-color: whitesmoke ;
     color: var(--other-color);
@@ -118,6 +116,9 @@ footer{
     font-family: var(--default-font-family);
     color:var(--other-color);
   }
+  #contact{
+    margin-top: 120px!important;
+}
 
 @media (max-width: 767px){
     img{
