@@ -13,7 +13,7 @@ h1, h2, h3{
     font-weight: bold;
 }
 h1{
-    color: aliceblue!important;
+    color: rgb(255, 248, 240)!important;
     text-shadow: 3px 1px 0 var(--tertiary-color);
     font-size:96px;
     font-weight: bold;
@@ -46,7 +46,7 @@ img{
     font-size: 25px;
   }
 .social-link a{
-    color: aliceblue;
+    color: rgb(255, 248, 240);
     text-decoration: none;
 }
 @media (max-width: 767px){
