@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
       padding: 25px 45px;
   }
   .btn-branding{
-      margin-left: 35px;
+    margin:20px
   }
   .btn-branding-outline{
       background: var(--branding-color);
@@ -104,16 +104,6 @@ h1, h2, h3, h4, h5, h6 {
       display: block;
       margin: 100px auto;
       max-width: 100%;
-  }
-  .link-linkedin{
-    display: block;
-    margin: 0 auto;
-    color: white;
-  }
-  .link-sns{
-    display:block;
-    margin: 0 auto;
-    font-size: large;
   }
   .email-link{
     color: var(--other-color);

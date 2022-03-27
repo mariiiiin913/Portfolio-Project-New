@@ -4,7 +4,7 @@
     --default-font-family: 'Roboto Slab', serif;
 }
 body{
-    background: rgb(231, 230, 252);
+    background: rgb(155, 152, 199);
 }
 
 h1, h2, h3{
@@ -13,7 +13,7 @@ h1, h2, h3{
     font-weight: bold;
 }
 h1{
-    color: #89a4bb!important;
+    color: aliceblue!important;
     text-shadow: 3px 1px 0 var(--tertiary-color);
     font-size:96px;
     font-weight: bold;
@@ -29,7 +29,7 @@ h2{
 p{
     font-family: var(--default-font-family);
 }
-a{
+.navbar a{
     font-family: var(--heading-font-family);
 }
 img{
@@ -45,7 +45,10 @@ img{
     margin-top: 150px!important;
     font-size: 25px;
   }
-
+.social-link a{
+    color: aliceblue;
+    text-decoration: none;
+}
 @media (max-width: 767px){
     img{
       display: none;
