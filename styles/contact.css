@@ -1,5 +1,8 @@
 :root{
+    --branding-color:#89a4bb; 
+    --secondary-color:linear-gradient(104.3deg, rgb(253, 243, 243) 10.9%, rgb(248, 231, 231) 27.8%, rgb(160, 112, 161) 101.7%);
     --tertiary-color:#5d5c61;
+    --other-color:#502463 ;
     --heading-font-family:'Dancing Script', cursive;
     --default-font-family: 'Roboto Slab', serif;
 }
@@ -17,8 +20,8 @@ h1{
     text-shadow: 3px 1px 0 var(--tertiary-color);
     font-size:96px;
     font-weight: bold;
-    margin:0;
-    padding-top: 100px;
+    margin: 0 auto;
+    padding: 120px 30px 50px 30px;
 }
 h2{
     font-size:64px
@@ -29,14 +32,23 @@ h2{
 p{
     font-family: var(--default-font-family);
 }
-.navbar a{
-    font-family: var(--heading-font-family);
+p.text{
+    color: aliceblue;
 }
+i {
+    color: var(--other-color);
+   }
+   i:hover{
+     color:#f7ccfe;
+   }
 img{
     max-width: 100%;
     width: 350px;
     display: block;
     margin: 0 auto;
+}
+.navbar a{
+    font-family: var(--heading-font-family);
 }
 .navbar-nav{
     font-size: 25px;
@@ -49,8 +61,67 @@ img{
     color: rgb(255, 248, 240);
     text-decoration: none;
 }
+.social-link a:hover{
+    color: #233d52;
+    transition: all 200ms ease-in-out;
+}
+.btn-branding-outline:hover, .btn-branding:hover{
+    background-color: whitesmoke;
+    color: var(--other-color);
+  }
+  .btn-branding, .contact-link{
+    background: var(--other-color);
+      border: 0.5px solid;
+      border-radius: 5px;
+      color:aliceblue;
+      font-family: var(--heading-font-family);
+      font-size: 25px;
+      line-height: 27px;
+      padding: 25px 45px;
+  }
+  .btn-branding{
+    margin:20px
+  }
+  .btn-branding-outline{
+      background: var(--branding-color);
+      border:1px solid var(--branding-color);
+      border-radius: 4px;
+      color: aliceblue;
+      display: block;
+      font-weight: bold;
+      font-size: 25px;
+      line-height:27px;
+      margin: 0 auto;
+      padding: 25px 45px;
+  }
+
+  .link-sns{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px 20px 50px auto;
+    padding: 10px; 
+  }
+  .contact-box{
+    background: var(--secondary-color);
+    border: 0.5px solid;
+    border-radius: 10px;
+    color: aliceblue;
+  }
+  .contact-btn{
+   margin:30px;
+   padding:20px
+  }
+  .work-inquiry{
+    margin:30px;
+  }
+  .open-source-link{
+    font-family: var(--default-font-family);
+    color:var(--other-color);
+    text-decoration: none;
+  }
 @media (max-width: 767px){
-    img{
-      display: none;
+    h1, .social-link, .link-sns {
+        text-align: center;
     }
 }
